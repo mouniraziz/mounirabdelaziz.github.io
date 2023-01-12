@@ -58,6 +58,27 @@
   color: #0077b5;
 }
 
+.stack-overflow {
+  color: rgb(255, 123, 0);
+}
+
+.fiverr{
+  color: green;
+}
+
+.fiverr img{
+  height: 24px;
+  width: 24px;
+}
+
+.fiverr-bottom-btn{
+  filter: brightness(1000%) grayscale(100%);
+  height: 24px;
+  width:24px ;
+  margin:13px;
+}
+
+
 .angellist {
   color: grey;
 }
@@ -71,12 +92,21 @@
   background-color: #0077b5;
 }
 
-.angellist:hover {
-  background-color: grey;
-}
-
 .github:hover {
   background-color: black;
+}
+
+.fiverr:hover{
+  background-color: green;
+  filter: brightness(100%);
+}
+
+.stack-overflow:hover  {
+  background-color: rgb(255, 123, 0);
+}
+
+.angellist:hover {
+  background-color: grey;
 }
 
 /* Buttons - Read Me, Contact Us */
@@ -344,7 +374,7 @@ h3 {
   /* font-weight: 400; */
   line-height: 150%;
   /* padding: 0 0px; */
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  /* text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); */
 }
 
 #intro.section .underline {
